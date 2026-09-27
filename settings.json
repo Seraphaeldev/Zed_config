@@ -1,0 +1,64 @@
+{
+  "icon_theme": "Warm Charmed Icons",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "buffer_line_height": "comfortable",
+  "line_indicator_format": "long",
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "One Dark"
+  },
+  "experimental.theme_overrides": {
+    "background": "#000000",
+    "syntax": {
+      "keyword": {
+        "color": "#ff757f"
+      },
+      "string": {
+        "color": "#c3e88d"
+      }
+    }
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "format_on_save": "off",
+  "minimap": {
+    "show": "auto"
+  },
+  "gutter": {
+    "line_numbers": true,
+    "runnables": true,
+    "breakpoints": true,
+    "folds": false,
+    "min_line_number_digits": 1
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": true,
+    "selections_menu": true,
+    "agent_review": false
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "status_bar": {
+    "show": false
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "language_models": {
+    "open_router": {
+      "available_models": [
+        {
+          "name": "qwen/qwen3.6-plus:free",
+          "display_name": "Qwen 3.6 Plus (Free)",
+          "max_tokens": 1000000
+        }
+      ]
+    }
+  }
+}
