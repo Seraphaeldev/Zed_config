@@ -10,7 +10,14 @@
     "dark": "One Dark"
   },
   "experimental.theme_overrides": {
-    "background": "#000000",
+    "colors": {
+      "background": "#000000EE",
+      "editor.background": "#000000EE",
+      "terminal.background": "#000000EE",
+      "panel.background": "#000000EE",
+      "status_bar.background": "#000000EE",
+      "tab_bar.background": "#000000EE"
+    },
     "syntax": {
       "keyword": {
         "color": "#ff757f"
